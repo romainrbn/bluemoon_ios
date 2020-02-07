@@ -33,7 +33,7 @@ struct HeaderTextInformation: View {
                     .font(.custom("LULO CLEAN", size: 500))
                     // text shrink
                     .minimumScaleFactor(0.05)
-                Text("BE READY")
+                Text("SOLD OUT")
                     .font(.custom("Poppins", size: 20))
                     .foregroundColor(.red)
                     .kerning(5.7)

@@ -114,9 +114,13 @@ struct SponsorsView: View {
                     .frame(width: 104, height: 123)
                     .padding(.top, 30)
                 
-                Image("angers_logo")
+                Image("angersInfo")
                     .resizable()
-                    .frame(width: 95, height: 123)
+                    //.frame(width: , height: )
+                
+                Image("AngersInfo")
+                    .resizable()
+                    .frame(width: 200, height: 80)
                 
                 Image("sono")
                     .resizable()

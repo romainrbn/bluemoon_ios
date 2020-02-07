@@ -33,7 +33,7 @@ struct CountDownView : View {
             .dateComponents([.day, .hour, .minute, .second],
                             from: nowDate,
                             to: referenceDate)
-        return String(format: "%02dJ %02dH %02dJ %02dS",
+        return String(format: "%02dJ %02dH %02dM %02dS",
                       components.day ?? 00,
                       components.hour ?? 00,
                       components.minute ?? 00,
